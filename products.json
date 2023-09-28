@@ -1,0 +1,68 @@
+{
+  "items" :[
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Python Programming Mastercourse",
+        "price": "129.25",
+        "image": {"fields": {"file": {"url": "images/Python.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "C++ Mastercourse",
+        "price": "110.5",
+        "image": { "fields": { "file": { "url": "images/C++.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "JavaScript for Beginners",
+        "price": "95.25",
+        "image": { "fields": { "file": { "url": "images/Javascript.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Java",
+        "price": "133.25",
+        "image": { "fields": { "file": { "url": "images/java.png" } } }
+      }
+    },
+        {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "C#",
+        "price": "153.25",
+        "image": { "fields": { "file": { "url": "images/Csharp.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Frontend Web Development Mastercourse",
+        "price": "164.25",
+        "image": { "fields": { "file": { "url": "images/frontend.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Backend Web Development Mastercourse",
+        "price": "170.25",
+        "image": { "fields": { "file": { "url": "images/backend.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Web Development course for beginners",
+        "price": "200.25",
+        "image": { "fields": { "file": { "url": "images/web.png" } } }
+      }
+    }
+  ]
+}

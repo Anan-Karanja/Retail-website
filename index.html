@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/44110e6aa1.js" crossorigin="anonymous" defer></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap"
+        rel="stylesheet">
+        <script src="./app.js" defer></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Retail Website</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="burger">
+            <span class="nav_icon">
+                <i class="fas fa-bars"></i>
+            </span>
+        </div>
+
+        <div class="logo">
+            <span class="logo_text"><i class="fa-solid fa-code"></i>
+                <span class="text">A <span class="b">CODE</span></span>
+            </span>
+
+        </div>
+
+        <div class="menu_bar">
+            <ul class="list">
+                <li class="list_items"><a href="#home">HOME</a></li>
+                <li class="list_items"><a href="#courses">COURSES</a></li>
+                <li class="list_items"><a href="#pricing">PRICING</a></li>
+                <li class="list_items"><a href="#about">ABOUT US</a></li>
+            </ul>
+        </div>
+
+        <div class="cart_btn">
+            <i class="fas fa-cart-plus "></i>
+            <div class="number_of_items">0</div>
+        </div>
+
+    </nav>
+
+    <!-- End of Navbar -->
+    <!-- Hero -->
+    <header class="hero" id="home">
+        <div class="banner">
+            <h1 class="banner_title">Expand your career <br> opportunities</h1>
+            <button class="banner_btn"><a href="#courses">Shop Now</a></button>
+        </div>
+    </header>
+    <!-- End of Hero -->
+
+    <!-- Products -->
+    <section class="products" id="courses">
+        <div class="section_title">
+            <h2>Our Products</h2>
+        </div>
+        <div class="products_center">
+            <!-- single product -->
+            <!-- <article class="product">
+                <div class="img_container">
+                    <img src="./images/frontend web dev.png" alt="frontend web development" class="product_img"
+                        width="300">
+                    <button class="bag_btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        add to bag
+                    </button>
+                </div>
+                <h3>Frontend Web Development</h3>
+                <h4>$145.35</h4>
+            </article>
+            End of single product -->
+
+        </div>
+    </section>
+    <!-- End of products -->
+    <!-- cart -->
+    <div class="cart_overlay">
+        <div class="cart">
+            <span class="close_cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>Your Cart</h2>
+            <div class="cart_content">
+                <!-- cart item -->
+                <!-- <div class="cart_item">
+                    <!-- <img src="./images/python.png" alt="product">
+                    <div>
+                        <h4>Python Programming Master Course</h4>
+                        <h5>$130.45</h5>
+                        <span class="remove_item">remove</span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-chevron-up"></i>
+                        <p class="item_amount">1</p>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div> -->
+                <!-- </div> -->
+                <!-- end of cart item -->
+            </div>
+            <div class="cart_footer">
+                <h3>Your total : $ <span class="cart_total">0</span></h3>
+                <button class="clear_cart banner_btn">Clear Cart</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./products.json"></script>
+</body>
+
+</html>
